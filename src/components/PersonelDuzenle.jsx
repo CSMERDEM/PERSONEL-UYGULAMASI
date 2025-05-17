@@ -5,7 +5,7 @@ import PersonelService from '../services/PersonelService';
 
 function PersonelDuzenle() {
   const { id } = useParams();
-  const [personel, setPersonel] = useState({ ad: '', soyad: '' });
+  const [personel, setPersonel] = useState({ ad: '', soyad: '' });//test
   const navigate = useNavigate();
 
   useEffect(() => {
