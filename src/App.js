@@ -6,7 +6,6 @@ import PersonelDuzenle from './components/PersonelDuzenle';
 
 function App() {
   return (
-    //test
     <Router>
       <Routes>
         <Route path="/" element={<PersonelListesi />} />
